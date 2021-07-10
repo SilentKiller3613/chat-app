@@ -6,15 +6,15 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(245 , 212, 177));
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: #F8F8F8;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
-    width: auto;
+    width: 800px;
     max-width: 90%;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -26,17 +26,13 @@ section.chat__section {
     align-items: center;
 }
 .brand h1 {
-    text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-    color: rgb(61, 61, 61);
-    margin: auto;
+    color: #444;
+    margin-left: 10px;
 }
 .message__area{
-    background-image: url("/public/Prana.png");
-    border: 2px solid black;
     height: 500px;
-    width: 520px;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -44,9 +40,8 @@ section.chat__section {
     padding-top: 40px;
 }
 textarea {
-    width: 520px;
+    width: 100%;
     border: none;
-    border-radius: 5px;
     padding: 20px;
     font-size: 16px;
     outline: none;
@@ -61,12 +56,12 @@ textarea {
     position: relative;
 }
 .incoming {
-    background: #c0c0c0;
-    color: rgb(0, 0, 0);  
+    background: #8F8BE8;
+    color: #fff;  
 }
 .outgoing {
-    background: #c0c0c0;
-    color: #000000;
+    background: #e9eafd;
+    color: #787986;
     margin-left: auto;
 }
 .message h4 {
