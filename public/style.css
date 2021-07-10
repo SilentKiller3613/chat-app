@@ -32,7 +32,7 @@ section.chat__section {
     margin: auto;
 }
 .message__area{
-    background-image: url("https://drive.google.com/file/d/1CeLwhYvIafNq93-Pg0n4t3YwNLgP_C6H/view?usp=sharing");
+    background-image: url("/public/Prana.png");
     border: 2px solid black;
     height: 500px;
     width: 520px;
