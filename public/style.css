@@ -32,7 +32,7 @@ section.chat__section {
     margin: auto;
 }
 .message__area{
-    background-image: url("/public/Prana.png");
+    background-image: url("/Users/Dell/Desktop/chat-app/public/Prana.png");
     border: 2px solid black;
     height: 500px;
     width: 520px;
